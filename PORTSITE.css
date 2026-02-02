@@ -349,6 +349,9 @@ scale: 1.01;
   padding: 25px;
   border-left: 2px solid var(--B-color);
   margin: 10px;
+}.project:hover {
+  background: var(--card);
+
 }
 
 /* ================= LOGIN MODAL ================= */
@@ -737,14 +740,16 @@ ul li {
 }
 /* line */
 /* subtle glow line */
-
+#footers{
+  position: relative;
+}
 .service::before,
 .towrow::before,
 #contact::before,
 #contact h2::before,
 #tech-stack::before,
 #trainingExp::before,
-.fooosss::before,
+#footers::before,
 #help::before,
 #help h2::before,
 #feedback::before,
@@ -871,13 +876,14 @@ ul li {
 }
 
 /* ================= PROJECTS SECTION ================= */
-.fooosss {
+/* .fooosss {
   height: -50px;
   margin: 0;
   padding: 0;
-}
+} */
 #projects {
   background: var(--allcard);
+  position: relative;
 }
 
 #projects h2 {
@@ -1017,6 +1023,7 @@ ul li {
 
 .trainingExp {
   background: var(--card);
+  position: relative;
 }
 
 .trainingExp .section-desc {
@@ -1127,6 +1134,7 @@ ul li {
 /* section stack */
 .tech-stack-wrap {
   background: #020617;
+  position: relative;
 }
 
 .tech-stack-wrap .section-title {
@@ -1148,7 +1156,7 @@ ul li {
 }
 
 .tech-card {
-  background: #020617;
+  background: var(--allcard);
   border: 1px solid rgba(0, 180, 251, 0.25);
   border-radius: 14px;
   padding: 25px;
@@ -1199,6 +1207,7 @@ ul li {
 .blg_section {
   background: #020617;
   padding: 60px;
+  position: relative;
   color: white;
 }
 .fullstackP b {
@@ -1692,9 +1701,9 @@ p {
     margin: 0;
     padding-right: 20px;
   }
-  .fooosss {
+  /* .fooosss {
     height: -50px;
     margin: 0;
     padding: 0;
-  }
+  } */
 }

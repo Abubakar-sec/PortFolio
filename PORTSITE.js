@@ -109,9 +109,9 @@ sendFeedback.onclick = () => {
 // resume
 // Resume links (yahan baad me apna actual link daal dena)
 const resumeViewLink =
-  "img/Resume.pdf";
+  "img/Resume_full_stack.pdf";
 const resumeDownloadLink =
-  "img/Resume.pdf";
+  "img/Resume_full_stack.pdf";
 
 document.getElementById("viewResumeBtn").href = resumeViewLink;
 document.getElementById("downloadResumeBtn").href = resumeDownloadLink;
