@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/Screenshot 2026-01-01 225935.png" type="image/x-icon">
+  <title>ABUBAKAR | Full Stack Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <!-- GSAP -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="PORTSITE.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- SIDEBAR -->
+  <div class="sidebar" data-aos = "fade-right" data-aos-delay="150" data-aos-duration="1000">
+    <h2 class="sidelogo"><img src="img/Screenshot 2026-01-01 225935.png" class="logoimg" alt="">ABUBAKAR</h2>
+    <p>
+      Full Stack Developer (Fresher)<br>
+      BCA 2nd Year Student<br>
+      Jain Deemed University, Bangalore
+    </p> 
+    <a href="#home"><span>Dashboard</span> <i class='fa fa-home bhi'></i></a>
+    <a href="#resu"><span>My Resume</span> <i class="fa-regular fa-file"></i></a>
+    <a href="#about" class="myabout"><span>About Me</span><i class='fa fa-info-circle bhi'></i></a>
+    <a href="#skills"><span>Skills</span> <i class="fa-solid fa-kitchen-set bhi"></i></a>
+    <a href="#services"><span>Services</span><i class='fas fa-laptop-code bhi'></i> </a>
+    <a href="#projects"><span>Assignments</span><i class='fas fa-tasks bhi'></i></a>
+    <a href="#contects"><span>Contact Us</span> <i class='fa fa-phone bhi'></i>
+    </a>
+    <a href="#projects2"><span>Projects</span><i class='fa fa-file-code-o bhi'></i></a>
+    <a href="#trainingExp"><span>Learning</span><i class='fas fa-book-reader bhi'></i></a>
+    <a href="#tech-stack"><span>Tech Stack Ov</span><i class="fa-solid fa-microchip"></i></a>
+    <a href="#footers"><span>Footer</span><i class='fas fa-sort-amount-down bhi'></i>
+    </a>
+
+  </div>
+
+  <!-- HEADER -->
+  <header class="headring" data-aos = "fade-down" data-aos-delay="150" data-aos-duration="1000">
+    <strong class="sidelogo"><img src="img/Screenshot 2026-01-01 225935.png" class="logoimg" alt="">ABUBAKAR</strong>
+    <nav>
+      <div class="remove">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Assignments</a>
+        <a href="#contects">Contact</a>
+      </div>
+      <button onclick="openAuth()">Login / Signup</button>
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-bars"></i>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="section hero">
+    <div class="undersection">
+      <div class="herorow1">
+        <h1>Hi, I’m<span><img src="img/Screenshot 2026-01-01 225935.png" class="logoimg" alt=""><span id="split">ABUBAKAR</span><span
+              style="color: var(--color); font-size: 20px;">!</span></span></h1>
+        <p style="width: 60%; opacity: 1;">
+          I am a passionate Full Stack Developer fresher focused on building modern,
+          responsive, and animated web applications using the latest technologies.
+          <main id="resu" ></main>
+        </p>
+        <button >Explore My Work</button>
+      </div>
+        <!-- resume -->
+  <section id="resume-section" data-aos="fade-up" class="resume-wrap section">
+    <h2 class="section-title">Resume / CV</h2>
+    <p class="resume-text" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="500"> 
+      You can view or download my resume to get a detailed overview of my skills,
+      training, projects, and technical expertise as a Full Stack Developer.
+    </p>
+    <div class="resume-btn-group">
+      <a href="#" id="viewResumeBtn" class="resume-btn view-btn" target="_blank">
+        👁 View Resume
+      </a>
+
+      <a href="#" id="downloadResumeBtn" class="resume-btn download-btn" download="pdf">
+        ⬇ Download Resume
+      </a>
+    </div>
+    <div class="gits">
+      <h2 id="profiles">profiles :</h2>
+      <a href="https://github.com/Abubakar-6287" target="_blank" class="code">Code Repository
+     <i class="fa-brands fa-github"></i></a>
+     <a href="https://www.linkedin.com/in/abubakar-shaikh-189919327?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdzkoeBtySk%2BIZsycKSR0Mw%3D%3D" target="_blank" class="code">Professional Profile
+     <i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </section>
+
+      <!-- frofile image -->
+      <div class="herorow2" >
+        <div class="backdiv1"></div>
+        <div class="backdiv2"></div>
+        <div class="backdiv3"></div>
+        <div class="imagebox">
+          <!-- <img class='profileimg' src="img/fullpic.png" alt=""> -->
+          <img class='profileimg' src="img/remove.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section data-aos="fade-right" id="about" class="section allabout" >
+    <h2>About Me</h2>
+    <p style="opacity: 1;" class="aboutpera fullstackP">
+      My name is <b>ABUBAKAR</b> and I am a passionate <b>Full Stack Developer</b> fresher.
+      I am currently pursuing <b>BCA</b> (Second Year) from <b>Jain Deemed University, Bangalore.</b>
+      I enjoy building modern, responsive, and scalable web applications using the latest
+      frontend and backend technologies.
+    </p>
+    <p class="aboutpera fullstackP" style="opacity: 1;">
+      I have hands-on experience in developing real-world projects, assignments,
+      and practice applications that focus on clean code, performance, and user experience.
+      I am continuously learning new technologies and improving my skills to become
+      a professional software developer.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section allskills" data-aos="fade-up"
+     data-aos-offset="50"
+     data-aos-easing="ease-in-sine" >
+    <h2>Skills & Technologies</h2>
+    <p class="section-desc" data-aos="zoom-out-right">
+      These are the technologies and tools I use to build modern, scalable, and
+      performance-optimized web applications. I focus on writing clean, reusable,
+      and maintainable code.
+    </p>
+    <div class="skills-grid">
+      <div class="skill" data-aos = "fade-right">
+        <h3>HTML5</h3>
+        <p>
+          HTML5 is the foundation of all my web projects. I use semantic HTML5 elements
+          to create well-structured, SEO-friendly, and accessible web pages.
+          This ensures better performance, improved search engine visibility,
+          and compatibility across all modern browsers.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-left">
+        <h3>CSS3</h3>
+        <p>
+          CSS3 allows me to design visually appealing and responsive layouts.
+          I work with Flexbox, CSS Grid, media queries, transitions, and animations
+          to build modern user interfaces that adapt perfectly to mobile, tablet,
+          and desktop screens.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-right">
+        <h3>JavaScript (Core & Advanced)</h3>
+        <p>
+          JavaScript enables me to add interactivity and dynamic behavior to websites.
+          I work with DOM manipulation, event handling, asynchronous programming
+          (Promises and async/await), API integration, and browser storage
+          to build real-world functionalities.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-left">
+        <h3>Bootstrap</h3>
+        <p>
+          Bootstrap is a responsive CSS framework that helps me rapidly build
+          mobile-first layouts. I use Bootstrap components such as grids,
+          navigation bars, modals, and forms to maintain consistency
+          and speed up development.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-right">
+        <h3>Tailwind CSS</h3>
+        <p>
+          Tailwind CSS is a utility-first framework that gives me full control
+          over design customization. It allows me to create scalable and
+          performance-optimized user interfaces without writing large custom CSS files.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-left">
+        <h3>React.js</h3>
+        <p>
+          React.js is my primary frontend library for building reusable
+          and component-based user interfaces. I work with hooks, state management,
+          props, and lifecycle methods to create fast and interactive web applications.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-right">
+        <h3>Node.js</h3>
+        <p>
+          Node.js allows me to build scalable and high-performance backend services.
+          I use Node.js to handle server-side logic, manage APIs,
+          and process asynchronous requests efficiently.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-left">
+        <h3>Express.js</h3>
+        <p>
+          Express.js is a lightweight backend framework that I use to build RESTful APIs.
+          It helps in routing, middleware handling, authentication,
+          and managing server-side workflows efficiently.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-right">
+        <h3>MongoDB</h3>
+        <p>
+          MongoDB is a NoSQL database that I use to store and manage application data.
+          I work with collections, documents, schema design, and CRUD operations
+          to build flexible and scalable database-driven applications.
+        </p>
+      </div>
+
+      <div class="skill" data-aos = "fade-left">
+        <h3>GSAP & Web Animations</h3>
+        <p>
+          GSAP helps me create smooth and professional animations such as
+          scroll-based effects, hover interactions, and page transitions.
+          These animations enhance user experience and give a modern look
+          to web applications.
+        </p>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section allservice" data-aos="zoom-in-down">
+    <h2 style="font-size: 32px;">Services I Provide</h2>
+    <h3><strong>Full Stack Web Development</strong><br></h3>
+    <p class="fullstackP">I design and develop complete web applications from scratch using modern frontend and backend
+      technologies. I build fast, scalable, and secure applications with clean code structure, responsive layouts, and
+      optimized performance using the MERN stack.</p>
+    <div class="service" data-aos="zoom-in-right">
+      <h3>Frontend Development</h3>
+      <p>
+        I build responsive, interactive, and visually appealing frontend interfaces
+        using modern web technologies. My focus is on clean UI design,
+        smooth animations, accessibility, and performance optimization.
+      </p>
+    </div>
+
+    <div class="service" data-aos="zoom-in-right">
+      <h3>Backend Development</h3>
+      <p>
+        I develop secure and scalable backend systems including APIs,
+        authentication, database integration, and server-side business logic.
+        My backend solutions are optimized for performance and reliability.
+      </p>
+    </div>
+
+    <div class="service" data-aos="zoom-in-right">
+      <h3>Full Stack Web Development</h3>
+      <p>
+        I provide complete full stack web development solutions,
+        handling both frontend and backend development.
+        This includes database design, API development, and user interface integration.
+      </p>
+    </div>
+
+    <div class="service" data-aos="zoom-in-right">
+      <h3>API Integration & Development</h3>
+      <p>
+        I create and integrate RESTful APIs and third-party services such as
+        payment gateways, authentication providers, and external data sources
+        to extend application functionality.
+      </p>
+    </div>
+
+    <div class="service" data-aos="zoom-in-right">
+      <h3>Debugging & Optimization</h3>
+      <p>
+        I analyze and fix bugs, improve application performance,
+        and optimize code for better speed, security, and maintainability.
+      </p>
+    </div>
+
+    <div class="service" data-aos="zoom-in-right">
+      <h3>Deployment & Maintenance</h3>
+      <p>
+        I deploy web applications on live servers and cloud platforms,
+        and provide regular maintenance to ensure stability,
+        security updates, and smooth operation.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section mytaks">
+    <h2>Assignments Taks!</h2>
+    <p data-aos="zoom-in-up">
+      This section contains the assignments and practice tasks I completed during
+      my Full Stack Development training. These tasks focus on building strong
+      fundamentals in frontend, backend, and JavaScript logic, including responsive
+      design, API handling, CRUD operations, and real-world problem solving.
+    </p>
+
+    <div class="projects">
+      <div class="project" data-aos="flip-right">JavaScript Calculator</div>
+      <div class="project" data-aos="flip-down">Landing Page Website</div>
+      <div class="project" data-aos="flip-up">Portfolio Website</div>
+      <div class="project" data-aos="flip-down">AIO animations</div>
+      <div class="project" data-aos="flip-up">Gsap Animation</div>
+      <div class="project" data-aos="flip-down">React App build</div>
+      <div class="project" data-aos="flip-up">APIs Testing </div>
+      <div class="project" data-aos="flip-down">E-commerce App (MERN)</div>
+      <div class="project" data-aos="flip-up">Admin Dashboard</div>
+    </div>
+    <b id="contects"></b>
+  </section>
+  <!-- feedback -->
+  <section class="towrow section">
+    <h2 class="allcontacts"  data-aos="zoom-in-down">Contacts, Help & Support and Feedback area: C</h2>
+    <section id="contact" class="section">
+      <h2>Contacts Information</h2>
+      <p  data-aos="zoom-in-up">
+        This section helps users understand how to navigate the portfolio, explore
+        different sections, and use available features smoothly. It also provides
+        guidance on profile editing, theme switching, and overall site functionality.
+      </p>
+      <br><br><br>
+      <h2>Contacts!</h2>
+      <p data-aos="zoom-in-up"><strong>Phone:📞</strong> 6287308735</p>
+      <p data-aos="zoom-in-up"><strong>Email:📧</strong> abubkar6287@gmail.com</p>
+      <p data-aos="zoom-in-up"><strong>Location:📍</strong> Noida Sector 15, India</p>
+    </section>
+    <section id="help" class="section">
+      <h2>Help & Support</h2>
+      <p data-aos="zoom-in-right">
+        This portfolio allows you to explore projects, services, and skills.
+        You can navigate using the sidebar or header menu.
+        Profile details can be edited and saved securely in the browser.
+        Dark/Light mode, animations, and responsive design are fully supported.
+      </p>
+    </section>
+    <section id="feedback" class="section">
+      <h2>Feedback</h2>
+      <p data-aos="zoom-in-right">
+        This feedback section allows visitors to share their thoughts, suggestions,
+        or improvement ideas. Your feedback helps me enhance the quality and user
+        experience of this portfolio.
+      </p>
+      <input id="f_name" class="ins" placeholder="Your Name">
+      <input id="f_email" class="ins" placeholder="Your Email">
+      <textarea id="f_msg" class="ins" placeholder="Your Message"></textarea>
+
+      <button data-aos="flip-right" id="sendFeedback">Send Message</button>
+    </section>
+  </section>
+  <!-- CONTACT -->
+
+  <!-- LOGIN -->
+  <div class="auth authings" id="auth">
+    <div class="auth-box">
+      <h3>Log In / <span class="signups">Sign Up</span></h3>
+      <input placeholder="Enter your Email...@gmail.com" required="Email">
+      <input type="password" placeholder="Enter your Password"  required="password">
+      <button id="boxbtn">Log_In</button>
+      <button id="boxbtn">Sign_Up</button>
+      <div class="close" onclick="closeAuth()"><span class="xmk">&#x29BB;</span></div>
+    </div>
+  </div>
+  <br>
+  <div id="projects2"></div>
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <p class="section-desc" data-aos="zoom-in-up">
+      Below are some of the projects and assignments I have built while learning
+      Full Stack Development. These projects demonstrate my skills in frontend,
+      backend, APIs, databases, animations, and deployment.
+    </p>
+
+    <div class="projects">
+
+      <!-- Project 1 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://i.ytimg.com/vi/0fYi8SGA20k/maxresdefault.jpg" alt="Portfolio Website">
+        </div>
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p data-aos="zoom-in-up">
+            A fully responsive personal portfolio website designed to showcase my
+            skills, projects, and services. It includes smooth animations,
+            dark/light mode, and optimized performance for all devices.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.8VPEaVL_-1pkMRNbvWk4bQHaDi?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Landing Page">
+        </div>
+        <div class="project-content">
+          <h3>Landing Page Design</h3>
+          <p data-aos="zoom-in-up">
+            A professional landing page built using HTML5 and CSS3 with clean
+            layout, call-to-action buttons, smooth scrolling, and responsive
+            design.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.ZI1roTCU_z1_ExRX-bxgMgAAAA?w=433&h=288&rs=1&pid=ImgDetMain&o=7&rm=3" alt="JavaScript Calculator">
+        </div>
+        <div class="project-content">
+          <h3>JavaScript Calculator</h3>
+          <p data-aos="zoom-in-up">
+            A dynamic calculator application developed using pure JavaScript. It
+            supports arithmetic operations, keyboard input handling, and real-time
+            calculations.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://clickysoft.com/wp-content/uploads/2024/03/Website-Redesign-Project-Plan-768x432.jpg" alt="Todo App">
+        </div>
+        <div class="project-content">
+          <h3>Todo List Application</h3>
+          <p data-aos="zoom-in-up">
+            A CRUD-based Todo application that allows users to add, edit, delete,
+            and mark tasks as completed with localStorage persistence.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://s.tmimgcdn.com/scr/1600x1000/66400/web-design--development-project-proposal-powerpoint-template_66476-original.jpg" alt="Weather App">
+        </div>
+        <div class="project-content">
+          <h3>Weather Application</h3>
+          <p data-aos="zoom-in-up">
+            A real-time weather application that fetches data from public APIs and
+            displays temperature, humidity, wind speed, and conditions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.oIJrP7rnu3dLyOWBJUIwoQHaFJ?w=518&h=360&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Login Signup">
+        </div>
+        <div class="project-content">
+          <h3>Login & Signup System</h3>
+          <p data-aos="zoom-in-up">
+            A frontend authentication system with form validation, password
+            strength checks, and localStorage-based session handling.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/17/website-template-Graphics-9670649-1-1-580x387.jpg" alt="Sidebar Navbar">
+        </div>
+        <div class="project-content">
+          <h3>Responsive Sidebar & Navbar</h3>
+          <p data-aos="zoom-in-up">
+            A reusable responsive navigation system with sidebar, hamburger menu,
+            dropdowns, and smooth animations for mobile and desktop.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 8 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.SNiJRttfhTUevBNvJejUXAAAAA?w=433&h=288&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Image Gallery">
+        </div>
+        <div class="project-content">
+          <h3>Image Gallery with Filters</h3>
+          <p data-aos="zoom-in-up">
+            An interactive image gallery where users can filter images by category
+            using JavaScript DOM manipulation and CSS animations.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 9 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.I6XCNueMA-CxtwoEJXWlmgHaDe?rs=1&pid=ImgDetMain&o=7&rm=3" alt="E-commerce">
+        </div>
+        <div class="project-content">
+          <h3>E-commerce Frontend</h3>
+          <p data-aos="zoom-in-up">
+            A modern e-commerce frontend interface with product listings, cart UI,
+            and checkout layout built using React components.
+          </p>
+        </div>
+      </div>
+
+      <!-- Project 10 -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-img">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.KRkFv_yLpuVfAL9LdOFWtwHaD4?w=1200&h=628&rs=1&pid=ImgDetMain&o=7&rm=3" alt="MERN App">
+        </div>
+        <div class="project-content">
+          <h3>MERN Stack Application</h3>
+          <p data-aos="zoom-in-up">
+            A full stack MERN application using MongoDB, Express, React, and
+            Node.js with authentication, APIs, and database integration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- experience -->
+  <section id="trainingExp" class="section trainingExp">
+    <h2>Training & Experience</h2>
+    <p class="section-desc" data-aos="zoom-in-right">
+      My professional learning journey where I gained hands-on experience
+      in Full Stack Development through structured training and real-world practice.
+    </p>
+    <div class="trainingExp-card">
+      <h3>CETPA Infotech – Full Stack Development Training</h3>
+      <span class="trainingExp-duration">Ongoing Professional Training</span>
+      <!-- Learning -->
+      <div class="experiencecetpa">
+        <div class="trainingExp-block">
+          <h4>What I Am Learning</h4>
+          <p class="whatim" data-aos="zoom-in-up">
+            I am currently undergoing Full Stack Web Development training at CETPA Infotech,
+            where I am learning and practicing the MERN stack in depth. The training focuses on
+            real-world application development, clean coding practices, and scalable architecture.
+          </p>
+          <ul>
+            <li><strong>
+                <h4>Keys & Skills</h4>
+              </strong></li>
+            <li data-aos="zoom-out-right">HTML5, CSS3 (Responsive Design, Flexbox, Grid, Animations)</li>
+            <li data-aos="zoom-in-right">JavaScript (Core, DOM, Events, Async/Await)</li>
+            <li data-aos="zoom-in-right">React.js (Components, Hooks, State & Props)</li>
+            <li data-aos="zoom-in-right">Node.js & Express.js (APIs, Routing, Middleware)</li>
+            <li data-aos="zoom-in-right">MongoDB (CRUD, Database Design)</li>
+            <li data-aos="zoom-in-right">GSAP Animations & UI Interactions</li>
+            <li data-aos="zoom-in-right">Debugging, Optimization & Deployment Basics</li>
+          </ul>
+        </div>
+
+        <!-- Built -->
+        <div class="trainingExp-block">
+          <h4>What I Have Built</h4>
+          <p style=" margin-left: 5px; border-left: 5px solid #00a0e0;" data-aos="zoom-in-up">
+            During this training, I have built multiple projects and assignments
+            that helped me understand the complete development lifecycle.
+          </p>
+
+          <ul>
+            <li><strong>
+                <h4>Achive & Build</h4>
+              </strong></li>
+            <li data-aos = "fade-right">Responsive portfolio & landing page websites</li>
+            <li data-aos = "fade-right">JavaScript-based dynamic applications</li>
+            <li data-aos = "fade-right">React frontend applications with reusable components</li>
+            <li data-aos = "fade-right">MERN stack applications with authentication flow</li>
+            <li data-aos = "fade-right">CRUD-based apps connected with MongoDB</li>
+            <li data-aos = "fade-right">Admin dashboards & data management panels</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- stack section -->
+  <section id="tech-stack" class="section tech-stack-wrap">
+    <h2 class="section-title">Tech Stack Overview</h2>
+    <p class="section-subtitle" data-aos = "fade-up">
+      Technologies and tools I use to build modern, scalable, and responsive web applications.
+    </p>
+    <div class="tech-stack-grid">
+
+      <!-- Frontend -->
+      <div class="tech-card">
+        <h3>Frontend</h3>
+        <ul>
+          <li data-aos = "fade-right">HTML5 – Semantic & SEO friendly</li>
+          <li data-aos = "fade-right">CSS3 – Flexbox, Grid, Animations</li>
+          <li data-aos = "fade-right">JavaScript (ES6+)</li>
+          <li data-aos = "fade-right">React.js</li>
+        </ul>
+      </div>
+
+      <!-- Backend -->
+      <div class="tech-card">
+        <h3>Backend</h3>
+        <ul>
+          <li data-aos = "fade-down">Node.js</li>
+          <li data-aos = "fade-down">Express.js</li>
+          <li data-aos = "fade-down">RESTful APIs</li>
+          <li data-aos = "fade-down">Authentication & Authorization</li>
+        </ul>
+      </div>
+
+      <!-- Database -->
+      <div class="tech-card">
+        <h3>Database</h3>
+        <ul>
+          <li data-aos = "fade-left">MongoDB</li>
+          <li data-aos = "fade-left">Mongoose ODM</li>
+          <li data-aos = "fade-left">CRUD Operations</li>
+          <li data-aos = "fade-left">Data Modeling</li>
+        </ul>
+      </div>
+
+      <!-- Tools -->
+      <div class="tech-card">
+        <h3>Tools & Workflow</h3>
+        <ul>
+          <li data-aos = "fade-up">Git , GitHub & Vercel</li>
+          <li data-aos = "fade-up">VS Code</li>
+          <li data-aos = "fade-up">Postman</li>
+          <li data-aos = "fade-up">NPM</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--   blog section   -->
+  <section id="blg_learning_section" class="blg_section section">
+    <h2 class="blg_heading">Learning Notes & Code Journal</h2>
+    <p class="blg_intro" data-aos = "fade-up">
+      This section is my daily learning journal where I write code, concepts,
+      and explanations related to JavaScript, React, and MERN Stack development.
+    </p>
+
+    <!-- FILTER -->
+    <div class="blg_filter_wrap" >
+      <button class="blg_filter_btn" data-blg="all">All</button>
+      <button class="blg_filter_btn" data-blg="js">JavaScript</button>
+      <button class="blg_filter_btn" data-blg="react">React</button>
+    </div>
+
+    <!-- EDITOR -->
+    <div class="blg_editor_box" data-aos = "fade-dowu">
+      <input id="blg_title_input" placeholder="Topic Title">
+      <select id="blg_tech_select">
+        <option value="js">JavaScript</option>
+        <option value="react">React</option>
+      </select>
+      <textarea id="blg_desc_input" rows="4" placeholder="Concept description"></textarea>
+      <textarea id="blg_code_input" placeholder="Write your code here" rows="5"></textarea>
+      <button id="blg_save_btn">Save Learning</button>
+    </div>
+
+    <!-- ENTRIES -->
+    <div id="blg_entry_container"></div>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <section class="section fooosss"></section>
+  <footer class="fooo" id="footers">
+    <div class="footer-top">
+      <div>
+        <img src="img/Screenshot 2026-01-01 225935.png" style="width: 80px;width: 80px; border-radius: 50%;" alt="">
+        <h3>ABUBAKAR</h3>
+        <p data-aos = "fade-right">Full Stack Developer building modern & scalable web applications & Sites.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul data-aos = "zoom-in-down">
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul data-aos = "fade-right">
+          <li>Frontend Development</li>
+          <li>Backend Development</li>
+          <li>Full Stack Apps</li>
+          <li>API Integration</li>
+          <li>Debugging</li>
+          <li>Deployment</li>
+        </ul>
+      </div>
+      <div>
+        <h3>More</h3>
+        <ul data-aos = "fade-up">
+          <li>Blog</li>
+          <li>Nokri</li>
+          <li>Resume</li>
+          <li>GitHub</li>
+          <li>LinkedIn</li>
+          <li>Theme Preference Saving</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Help</h3>
+        <ul data-aos = "zoom-in-down">
+          <li>Support</li>
+          <li>Feedback</li>
+          <li>Service Details</li>
+          <li>Project Filtering</li>
+          <li>Privacy & Security</li>
+          <li>Terms & Conditions</li>
+        </ul>
+    </div>
+  </div>
+    <div class="footer-bottom"data-aos-delay='200' data-aos-offset="10" data-aos = "fade-up">
+      © 2026 ABUBAKAR | Full Stack Developer
+    </div>
+  </footer>
+  <button id="topslide"><i class="fa-solid fa-arrow-up-from-ground-water"></i></button>
+  <script src="PORTSITE.js">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+</script>
+</body>
+</html>
