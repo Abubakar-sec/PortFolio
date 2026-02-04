@@ -144,7 +144,6 @@ function blgRender(filter = "all") {
 //     e.code.replace(/[{}.]/g, matche=>{
 //   return `<span style="color:yellow">${matche}</span>`;
 // })
-console.log(e.code);
       card.querySelector(".blg_card_head").onclick = () => {
         const body = card.querySelector(".blg_card_body");
         body.style.display = body.style.display === "block" ? "none" : "block";
@@ -199,4 +198,5 @@ gsap.from(".herorow1 p span", {
   stagger: 0.2,
   duration: 0.9,
 });
+
 
